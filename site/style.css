@@ -3,6 +3,11 @@ text-align:center;
 background: #000000;
 font-family: 'Harabara', 'MS Gothic';
 }
+
+body .menu #or{
+color: #BF911D;
+}
+
 body .menu a{
 text-decoration: none;
 background: #000000;
@@ -10,6 +15,7 @@ color: #ffffff;
 font-size: 5rem;
 line-width: 2;
 }
+
 body .menu a:hover{
 color: #B22222;
 }

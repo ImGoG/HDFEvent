@@ -1,6 +1,4 @@
-a{
-text-align: center;
-background-color: dark;
+.menu a{
 text-decoration: none;
-font-family: 'Haraba', MS Gothic;
+font-family: 'Haraba', 'MS Gothic';
 }

@@ -1,4 +1,8 @@
 body .menu{
 text-align:center;
 font-family: 'Harabara', 'MS Gothic';
+background: #ffffff;
+}
+body .menu a{
+text-decoration: none;
 }

@@ -6,4 +6,6 @@ body .menu a{
 text-decoration: none;
 background: #000000;
 color: #ffffff;
+font-size: 5rem;
+line-width: 2;
 }

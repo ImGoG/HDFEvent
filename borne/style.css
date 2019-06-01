@@ -9,7 +9,13 @@ color: #FFFFFF;
 
 /* page index */
 body {
-background: url('images/LGP.png');
+  background: linear-gradient(
+   rgba(0, 0, 0, 0.45),
+   rgba(0, 0, 0, 0.45)
+   );
+background: url(images/LGP.png);
+background-size:cover;
+
 }
 /* page accueil */
 
@@ -36,7 +42,7 @@ color:#fff;
 border: 1px solid #161616;
 margin-bottom: 1px;
 list-style-type: none;
-margin-top: 500px;
+margin-top: 400px;
 }
 
 #boutons li a {
@@ -51,6 +57,7 @@ padding:150px;
 position: relative;
 margin-top:1px;
 font-size: 14rem
+
 }
  #boutons li a:hover{
  transform: scale(1.1);

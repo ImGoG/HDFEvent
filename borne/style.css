@@ -1,9 +1,23 @@
 #titre {
 text-align: center;
 font-size: 7.5rem;
-font-family: 'orkney regular';
+font-family: 'orkney';
+color: #FFFFFF;
 }
 
 body{
-background-color: #cc0000;
+background-image: url('images/LGP.png');
+opacity:50;
+}
+#logocliquable{
+text-align:center;
+height: auto;
+}
+
+#logocliquable img{
+width: 2000px;
+height: 1500px;
+}
+boutons {
+display: block;
 }

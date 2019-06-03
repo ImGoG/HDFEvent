@@ -1,3 +1,13 @@
+
+/* body des pages */
+body {
+background: linear-gradient(
+  rgba(0, 0, 0, 0.45),
+  rgba(0, 0, 0, 0.45)
+  ), url('images/LGP.png');
+  background-size: cover
+
+}
 /* page accueil */
 #titre {
 text-align: center;
@@ -5,19 +15,6 @@ font-size: 7.5rem;
 font-family: 'orkney';
 color: #FFFFFF;
 }
-
-
-/* page index */
-body {
-  background: linear-gradient(
-   rgba(0, 0, 0, 0.45),
-   rgba(0, 0, 0, 0.45)
-   );
-background: url(images/LGP.png);
-background-size:cover;
-
-}
-/* page accueil */
 
 #logocliquable{
 text-align:center;
@@ -43,6 +40,7 @@ border: 1px solid #161616;
 margin-bottom: 1px;
 list-style-type: none;
 margin-top: 400px;
+
 }
 
 #boutons li a {
@@ -63,6 +61,20 @@ font-size: 14rem
  transform: scale(1.1);
  color: #ffaa85;
 }
+
+/* page plan */
+#acces {
+  text-align: center;
+  margin-top: 0px;
+}
+
+
+#title-plan {
+  font-size: 5em;
+  color: #FFFFFF;
+  text-align: center;
+}
+
 /* page liste html */
 #marecherche{
 margin-top: 300px;
@@ -93,3 +105,4 @@ display: flex;
     text-align: center;
     font-family: 'orkney';
 }
+

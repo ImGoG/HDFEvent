@@ -63,3 +63,33 @@ font-size: 14rem
  transform: scale(1.1);
  color: #ffaa85;
 }
+/* page liste html */
+#marecherche{
+margin-top: 300px;
+margin-left: 600px;
+    height: 100px;
+    width: 600px;
+    
+}
+button{
+    height: 100px;
+    width: 200px;
+    
+}
+#aligner{
+display: flex;
+}
+#aligner marecherche{
+    flex-basis: 50%;
+}
+
+#aligner .test{
+    flex-basis: 50%;
+}
+
+#titre-liste{
+    color: #ffffff;
+    font-size: 8rem;
+    text-align: center ;
+    font-family: 'orkney';
+}

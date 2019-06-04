@@ -12,6 +12,9 @@ background: linear-gradient(
 h2 {
     font-family: 'TW Cen MT';
 }
+
+#btn
+
 /* page accueil */
 #titre {
 text-align: center;
@@ -71,7 +74,9 @@ font-size: 14rem
   text-align: center;
   margin-top: 0px;
 }
-
+#btn-return{
+    
+}
 
 #title-plan {
   font-size: 5em;

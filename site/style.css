@@ -6,6 +6,11 @@
     background-color: black;
 }
 
+.content{
+font-size: 40px;    
+    
+}
+
 .m-left{
     float: left;
 }
@@ -102,10 +107,16 @@ header{
 }
 
 main{
-    max-width: 650px;
-    margin:80px auto;
+    margin:20px ;
+    font-size: 23px;
+    text-align: center;
 }
 
+
+#slideshow{
+    margin-left : 500px;
+    margin-bottom: 20px;
+}
 
 
 

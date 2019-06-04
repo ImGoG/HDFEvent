@@ -7,8 +7,13 @@
 }
 
 .content{
+
 font-size: 40px;    
     
+
+font-size: 40px;
+
+
 }
 
 .m-left{
@@ -23,7 +28,7 @@ font-size: 40px;
     letter-spacing: 1px;
     font-size: 50px;
     font-family: metria;
-    
+
 }
 
 .m-right{
@@ -73,7 +78,7 @@ body,html,header,h1{
     height: 100%;
     background: url(cinema.jpg)no-repeat;
     background-size:cover;
-    color:white;  
+    color:white;
 }
 
 header,body,html{
@@ -85,7 +90,7 @@ header,body,html{
 header{
     background: url(images/cinema.jpg)no-repeat;
     background-size:cover;
-    color:white;    
+    color:white;
 }
 
 .wrapper{
@@ -110,6 +115,9 @@ main{
     margin:20px ;
     font-size: 23px;
     text-align: center;
+
+    background-color: blue;
+
 }
 
 
@@ -117,6 +125,8 @@ main{
     margin-left : 500px;
     margin-bottom: 20px;
 }
+
+
 
 
 
@@ -131,7 +141,7 @@ main{
 	height: 310px;
 	overflow: hidden;
 }
-	
+
 /* on prévoit un petit espace gris pour la timeline */
 #slideshow .container:after {
 	position:absolute;
@@ -141,7 +151,7 @@ main{
 	height: 1px;
 	background: #999;
 }
-/* 
+/*
    le conteneur des slides
    en largeur il fait 100% x le nombre de slides
 */
@@ -166,7 +176,7 @@ main{
 	content: " ";
 	top:0; left:0;
 	width: 100%; height: 100%;
-	box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;   
+	box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;
 }
 
 
@@ -203,6 +213,9 @@ main{
 }
 
 
+.slider{
+
+}
 
 .map{
     margin-left : 20px;
@@ -210,19 +223,189 @@ main{
 }
 
 
-/*Bas de la page web*/
-footer{
-color: white;
-background:black;
-position:relative;
-bottom:0;
-width:100%;
-padding-top:50px;
-height:50px;
+
+/* page contact */
+h3{
+    text-align: center;
+
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  font-family: 'Tw Cen MT';
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.f-right{
-    float: right;
-    font-family: 'Harabara Mais Demo', 'MS Gothic';
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #cc0000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
 }
 
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #161616;
+  padding: 20px;
+  color: white;
+}
+
+#plan {
+    background: cover;
+}
+
+
+
+/*page presse*/
+
+.tendances {
+  display: flex; /* type d'affichage*/
+}
+
+.tendances-item {
+  flex-basis: 50%; /* coupe le bloc en 2*/
+
+}
+
+.tendances-inverse {
+  flex-direction: row-reverse; /* direction de la flex */
+}
+
+.tendances-txt {
+  font-size: 1.6rem; /* taille */
+  line-height: 2.5rem; /* espacement entre les lignes*/
+  padding: 7rem; /* marges intérieure*/
+  border: 1px solid black;
+}
+
+.tendances-item .tendances-txt p{
+  text-align: center;
+}
+
+.tendances-txt a {
+  color: #5c738d; /* couleur*/
+}
+
+.tendances-txt a:hover {
+  text-decoration: underline; /* type de décoration pour le texte */
+}
+
+.tendances-txt .title-like {
+  color: #000;
+
+
+}
+
+.tendances-img {
+  position: relative; /* position qui est relative */
+}
+
+.tendances-img span {
+  position: absolute;
+  bottom: 0;/*  espace avec le côté correspondant */
+  left: 0; /* espace avec le côté correspondant */
+  right: 0; /* espace avec le côté correspondant */
+  background: rgba(0, 0, 0, .7); /* couleur + opacité */
+  padding: 3rem 0; /* marges intérieures*/
+  text-align: center; /* alignement horizontale*/
+  color: #fff;
+  font-size: 1.8rem; /* taille de police */
+}
+
+/* page métrage */
+
+.articles {
+  width: 80%; /* largeur */
+  margin: 0 auto; /* écart de remplissage extérieure */
+  padding: 3rem 0; /* écart de remplissage intérieur*/
+}
+
+.articles > div {
+  display: flex; /* type d'affichage */
+  flex-wrap: wrap;
+  margin-bottom: 2rem; /* écart de remplissage extérieure avec le bas */
+  justify-content: space-around; /* aligne l'élément horizontalement et affiche avec un espacement égal à l'entour d'eux. */
+}
+
+.articles > div > div {
+  flex-basis: 31%; /* taille qu'un bloc (ex div) va prendre sur les autres blocs */
+  min-width: 30rem; /* largeur minimal */
+  margin-bottom: 2rem; /* écart de remplissage extérieure avec le bas */
+  background: #eee; /* couleur de fond */
+}
+
+.articles img {
+  width: 100%; /* largeur */
+}
+
+.articles .title-like {
+  font-size: 5rem; /* taille de police */
+  text-align: center; /* alignement horizontal*/
+  color: #000; /* couleur */
+}
+
+.articles a {
+  display: block; /* type d'affichage */
+  color: #000; /* couleur */
+  text-decoration: none; /* type de décoration pour le texte */
+  padding: 1rem; /* écart de remplissage intérieur */
+}
+
+.articles-title {
+  font-size: 1.3rem; /* taille de police */
+  line-height: 1.8rem; /* espacement entre les lignes */
+}
+
+.articles-nom {
+  display: block; /* type d'affichage */
+  text-align: center; /* alingnement horizontale */
+  font-size: 1.9rem; /* taille de police*/
+  font-family: 'Times New Roman', Times, serif; /* type de police */
+  font-style: italic; /* style de police */
+  margin-bottom: 3rem; /* écart de remplissage extérieure avec le bas */
+  position: relative; /*position d'un bloc qui est relatif */
+}
+
+
+
+.articles-img {
+  position: relative; /* position qui est relatif */
+}
+
+.articles-over {
+  position: absolute;  /* position qui est absolue */
+  top: 1rem;   /*  espace avec le côté correspondant */
+  right: 1rem;/* espace avec le côté correspondant */
+  bottom: 1rem; /*espace avec le côté correspondant */
+  left: 1rem; /*espace avec le côté correspondant */
+  background: rgba(0, 0, 0, 0.7); /* couleur avec une opacité */
+  opacity: 0; /* opacité*/
+  transition: opacity 300ms ease-in; /* type de transition */
+}
+
+.articles-over .title-like {
+  position: absolute;
+  width: 100%; /* largeur*/
+  font-size: 3rem; /* taille de police */
+  color: #fff; /* couleur*/
+  left: 0; /* espace avec le côté gauche */
+  overflow: hidden;
+  transform: translateY(-50%); /* glissement sur l'axe Y*/
+  transition: top .1s ease-in; /* type de transition */
+}

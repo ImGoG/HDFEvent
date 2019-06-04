@@ -1,0 +1,173 @@
+
+/* body des pages */
+body {
+background: linear-gradient(
+  rgba(0, 0, 0, 0.45),
+  rgba(0, 0, 0, 0.45)
+  ), url('images/LGP.png');
+  background-size: cover
+
+}
+
+h2 {
+    font-family: 'TW Cen MT';
+}
+
+#btn
+
+/* page accueil */
+#titre {
+text-align: center;
+font-size: 7.5rem;
+font-family: 'orkney';
+color: #FFFFFF;
+}
+
+#logocliquable{
+text-align:center;
+height: auto;
+}
+
+#logocliquable img{
+width: 2000px;
+height: 1500px;
+}
+/* page index*/
+
+boutons{
+width:200px;
+list-style: none;
+line-height: 15rem;
+}
+
+#boutons li{
+background: rgba(0, 0, 0, .7);
+color:#fff;
+border: 1px solid #161616;
+margin-bottom: 1px;
+list-style-type: none;
+margin-top: 400px;
+
+}
+
+#boutons li a {
+display: block;
+background: none;
+color: #fff;
+font-family:'orkney';
+line-height: 0.5rem;
+text-align: center;
+text-decoration: none;
+padding:150px;
+position: relative;
+margin-top:1px;
+font-size: 14rem
+
+}
+ #boutons li a:hover{
+ transform: scale(1.1);
+ color: #ffaa85;
+}
+
+/* page plan */
+#planinterne {
+  text-align: center;
+  margin-top: 0px;
+}
+#btn-return{
+    
+}
+
+#title-plan {
+  font-size: 5em;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#legende {
+    color: #ffffff;
+    font-size: 4.5rem;
+    text-align: center;  
+    font-family: 'TW Cen MT';
+}
+
+#legende li{
+      display: inline; 
+      font-size: 5rem;
+}
+
+#legende #bleu{
+    color: #15c5ef;
+    transform: scale(1.1);
+}
+
+#legende #rouge{
+    color: #f61e00;
+    transform: scale(1.1);
+}
+
+#legende #jaunef{
+    color: #f0c500;
+    transform: scale(1.1);
+}
+
+#legende #rose{
+    color: #df215c;
+    transform: scale(1.1);
+}
+
+#legende #jaune{
+    color: #fcf004;
+    transform: scale(1.1);
+}
+
+#legende #gris{
+    color: #a995eb;
+    transform: scale(1.1);
+}
+
+#legende #orange{
+    color: #f19000;
+    transform: scale(1.1);
+}
+
+#legende #vert{
+    color: #a6e712;
+    transform: scale(1.1);
+}
+
+#legende ul{
+     list-style-type: none;
+}
+
+/* page liste html */
+#marecherche{
+margin-top: 300px;
+margin-left: 600px;
+    height: 100px;
+    width: 600px;
+    
+}
+button{
+    height: 100px;
+    width: 200px;
+    
+}
+#aligner{
+display: flex;
+}
+#aligner marecherche{
+    flex-basis: 50%;
+}
+
+#aligner .test{
+    flex-basis: 50%;
+}
+
+#titre-liste{
+    color: #ffffff;
+    font-size: 8rem;
+    text-align: center;
+    font-family: 'orkney';
+}
+

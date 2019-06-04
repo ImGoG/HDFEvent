@@ -8,6 +8,10 @@ background: linear-gradient(
   background-size: cover
 
 }
+
+h2 {
+    font-family: 'TW Cen MT';
+}
 /* page accueil */
 #titre {
 text-align: center;
@@ -63,7 +67,7 @@ font-size: 14rem
 }
 
 /* page plan */
-#acces {
+#planinterne {
   text-align: center;
   margin-top: 0px;
 }
@@ -73,6 +77,62 @@ font-size: 14rem
   font-size: 5em;
   color: #FFFFFF;
   text-align: center;
+}
+
+#legende {
+    color: #ffffff;
+    font-size: 4.5rem;
+    text-align: center;  
+    font-family: 'TW Cen MT';
+}
+
+#legende li{
+      display: inline; 
+      font-size: 5rem;
+}
+
+#legende #bleu{
+    color: #15c5ef;
+    transform: scale(1.1);
+}
+
+#legende #rouge{
+    color: #f61e00;
+    transform: scale(1.1);
+}
+
+#legende #jaunef{
+    color: #f0c500;
+    transform: scale(1.1);
+}
+
+#legende #rose{
+    color: #df215c;
+    transform: scale(1.1);
+}
+
+#legende #jaune{
+    color: #fcf004;
+    transform: scale(1.1);
+}
+
+#legende #gris{
+    color: #a995eb;
+    transform: scale(1.1);
+}
+
+#legende #orange{
+    color: #f19000;
+    transform: scale(1.1);
+}
+
+#legende #vert{
+    color: #a6e712;
+    transform: scale(1.1);
+}
+
+#legende ul{
+     list-style-type: none;
 }
 
 /* page liste html */

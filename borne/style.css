@@ -4,9 +4,12 @@ body {
 background: linear-gradient(
   rgba(0, 0, 0, 0.45),
   rgba(0, 0, 0, 0.45)
-  ), url('images/LGP.png');
-  background-size: cover
-
+  ), url('');
+  background-size: cover;
+z-index: 7;
+    overflow: hidden;
+    height: 2480px;
+    width: 3508px;
 }
 
 h2 {
@@ -171,3 +174,76 @@ display: flex;
     font-family: 'orkney';
 }
 
+/* page actualite */
+.planning {
+    display: flex;
+}
+
+.img-planning{
+    display: flex;
+}
+
+.texte-vendredi {
+  text-align: center; /* alignement du texte*/
+  background: url('images/test.jpg.png'); /* changement couleur d'arriere plan*/
+  font-size: 2rem; /* taille de la font*/
+  line-height: 4rem; /* espacement entre les lignes du texte*/
+  padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
+  flex-basis: 33%;
+}
+
+.img-vendredi{
+    flex-basis: 33%;
+    height: 1712px;
+}
+
+.texte-samedi {
+  text-align: center; /* alignement du texte*/
+  background: cover; /* changement couleur d'arriere plan*/
+  font-size: 2rem; /* taille de la font*/
+  line-height: 4rem; /* espacement entre les lignes du texte*/
+  padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
+    flex-basis: 33%;
+     
+  border: 1px solid #000000;
+}
+
+.img-samedi{
+    flex-basis: 33%;
+    height: 1712px;
+   
+    z-index: 9;
+}
+
+.texte-dimanche {
+  text-align: center; /* alignement du texte*/
+  background: #eee; /* changement couleur d'arriere plan*/
+  font-size: 2rem; /* taille de la font*/
+  line-height: 4rem; /* espacement entre les lignes du texte*/
+  padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
+  flex-basis: 34%;
+}
+
+.texte-dimanche{
+    
+}
+
+.img-dimanche{
+    flex-basis: 34%;
+    height: 1712px;
+    width:1300px;
+    z-index: 8;
+}
+
+
+.texte-vendredi .date{
+    font-size: 4rem;
+}
+
+.texte-samedi .date{
+    font-size: 4rem;
+}
+
+.texte-dimanche .date{
+    font-size: 4rem;
+}

@@ -5,7 +5,8 @@ background: linear-gradient(
   rgba(0, 0, 0, 0.45),
   rgba(0, 0, 0, 0.45)
   ), url('');
-  background-size: cover;
+  background: url('images/Fond-borne.jpg');
+  background-repeat: no-repeat; 
 z-index: 7;
     overflow: hidden;
     height: 2480px;
@@ -83,8 +84,9 @@ font-size: 14rem
 
 #title-plan {
   font-size: 5em;
-  color: #FFFFFF;
+  color: #000;
   text-align: center;
+  font-family: 'TW Cen MT';
 }
 
 #legende {
@@ -145,7 +147,7 @@ font-size: 14rem
 
 /* page liste html */
 #marecherche{
-margin-top: 300px;
+
 margin-left: 600px;
     height: 100px;
     width: 600px;
@@ -168,10 +170,11 @@ display: flex;
 }
 
 #titre-liste{
-    color: #ffffff;
+    color: #000;
     font-size: 8rem;
     text-align: center;
-    font-family: 'orkney';
+    font-family: 'TW Cen MT';
+    
 }
 
 /* page actualite */
@@ -190,11 +193,13 @@ display: flex;
   line-height: 4rem; /* espacement entre les lignes du texte*/
   padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
   flex-basis: 33%;
+    transform: scale(1.02);
 }
 
 .img-vendredi{
     flex-basis: 33%;
     height: 1712px;
+    transform: scale(1.02);
 }
 
 .texte-samedi {
@@ -204,14 +209,14 @@ display: flex;
   line-height: 4rem; /* espacement entre les lignes du texte*/
   padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
     flex-basis: 33%;
-     
+    transform: scale(1.03);
   border: 1px solid #000000;
 }
 
 .img-samedi{
     flex-basis: 33%;
     height: 1712px;
-   
+    transform: scale(1.03);
     z-index: 9;
 }
 
@@ -222,17 +227,16 @@ display: flex;
   line-height: 4rem; /* espacement entre les lignes du texte*/
   padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
   flex-basis: 34%;
+    transform: scale(1.02);
 }
 
-.texte-dimanche{
-    
-}
 
 .img-dimanche{
-    flex-basis: 34%;
-    height: 1712px;
+    flex-basis: 33%;
+    height: 1718px;
     width:1300px;
     z-index: 8;
+    transform: scale(1.02);
 }
 
 
@@ -246,4 +250,129 @@ display: flex;
 
 .texte-dimanche .date{
     font-size: 4rem;
+}
+
+/* bouton retour */
+.Return {
+	background-color:#cc0000;
+	background-color:#cc0000;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:75px;
+	font-weight:bold;
+	padding:13px 31px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #9e0101;
+    font-family: 'Tw Cen MT';
+    margin-left: 1400px;
+    margin-top: 50px;
+    
+}
+.Return:hover {
+	background-color:#cc0000;
+}
+.Return:active {
+	position:relative;
+	top:1px;
+}
+
+/* Page liste */
+
+.articles {
+  width: 80%; /* largeur */
+  margin: 0 auto; /* écart de remplissage extérieure */
+  padding: 3rem 0; /* écart de remplissage intérieur*/
+  
+}
+
+.articles > div {
+  display: flex; /* type d'affichage */
+  flex-wrap: wrap;
+  margin-bottom: 2rem; /* écart de remplissage extérieure avec le bas */
+  justify-content: space-around; /* aligne l'élément horizontalement et affiche avec un espacement égal à l'entour d'eux. */
+
+}
+
+.articles > div > div {
+  flex-basis: 31%; /* taille qu'un bloc (ex div) va prendre sur les autres blocs */
+  min-width: 30rem; /* largeur minimal */
+  margin-bottom: 2rem; /* écart de remplissage extérieure avec le bas */
+  background: url('images/font-vignette.png');
+  background-size: cover;
+
+}
+
+.articles img {
+  width: 100%; /* largeur */
+}
+
+.articles .title-like {
+  font-size: 5rem; /* taille de police */
+  text-align: center; /* alignement horizontal*/
+  color: #000; /* couleur */
+   font-family: 'WesFY';
+   
+    
+}
+
+.articles a {
+  display: block; /* type d'affichage */
+  color: #000; /* couleur */
+  text-decoration: none; /* type de décoration pour le texte */
+  padding: 1rem; /* écart de remplissage intérieur */
+}
+
+.articles-title {
+  font-size: 1.3rem; /* taille de police */
+  line-height: 1.8rem; /* espacement entre les lignes */
+}
+
+.metrages-nom {
+  display: block; /* type d'affichage */
+  text-align: center; /* alingnement horizontale */
+  font-size: 1.9rem; /* taille de police*/
+  font-family: 'Times New Roman', Times, serif; /* type de police */
+  font-weight: bold;
+  font-style: italic; /* style de police */
+  margin-bottom: 1rem; /* écart de remplissage extérieure avec le bas */
+  position: relative; /*position d'un bloc qui est relatif */
+  color: #000;
+  
+}
+
+ .metrages-img img {
+  position: relative; /* position qui est relatif */
+  border-radius: 20px;
+}
+
+.metrages-img:hover{
+    transform: scale(1.1);
+    transition: transform ease-in .4s;
+}
+.metrages-over {
+  position: absolute;  /* position qui est absolue */
+  top: 1rem;   /*  espace avec le côté correspondant */
+  right: 1rem;/* espace avec le côté correspondant */
+  bottom: 1rem; /*espace avec le côté correspondant */
+  left: 1rem; /*espace avec le côté correspondant */
+  background: rgba(0, 0, 0, 0.7); /* couleur avec une opacité */
+  opacity: 0; /* opacité*/
+  transition: opacity 300ms ease-in; /* type de transition */
+}
+
+.metrages-over .title-like {
+  position: absolute;
+  width: 100%; /* largeur*/
+  font-size: 3rem; /* taille de police */
+  color: #fff; /* couleur*/
+  left: 0; /* espace avec le côté gauche */
+  overflow: hidden;
+  transform: translateY(-50%); /* glissement sur l'axe Y*/
+  transition: top .1s ease-in; /* type de transition */
 }

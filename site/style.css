@@ -13,7 +13,15 @@ src: url("Wes_FY_Thin.ttf");
 
 .content{
 font-size: 40px;
+    font-family: "WesFY";
+}
 
+.content h1{
+    font-family: "WesFY";
+}
+
+.content p{
+    font-family: "TW Cen MT";
 }
 
 .m-left{
@@ -48,12 +56,11 @@ font-size: 40px;
 }
 
 .m-link:hover{
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid #cc0000;
     padding-bottom: 3px;
-    color : gold;
+    color : #cc0000;
     font-size : 20px;
 }
-
 
 
 .m-link i{
@@ -89,8 +96,7 @@ header,body,html{
 
 
 header{
-    background: url(images/cinema.jpg)no-repeat;
-    background-size:cover;
+        
     color:white;
 }
 
@@ -120,10 +126,16 @@ main{
     border: 2px solid #cc0000;
      border-right-style: hidden;
     border-left-style:hidden;
+    background: #000;
+    color: #fff;
+    padding: 3.5rem 0;
+    line-height: 1rem;
 }
 
 
-
+main p {
+    margin-left: 50px;
+}
 
 
 
@@ -134,6 +146,7 @@ main{
 /* gestion des dimensions et débordement du conteneur */
 #slideshow {
     margin-left: 450px;
+    padding-bottom: 50px;
 }
 #slideshow .container {
 	position:relative;
@@ -393,6 +406,7 @@ input[type=submit]:hover {
 
 .metrages-img:hover{
     transform: scale(1.1);
+    transition: transform ease-in .4s;
 }
 .metrages-over {
   position: absolute;  /* position qui est absolue */
@@ -416,4 +430,3 @@ input[type=submit]:hover {
   transition: top .1s ease-in; /* type de transition */
 }
 /* Partie responsive */
-}

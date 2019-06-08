@@ -9,8 +9,8 @@ background: linear-gradient(
   background-repeat: no-repeat; 
 z-index: 7;
     overflow: hidden;
-    height: 2480px;
-    width: 3508px;
+    height: 100%;
+    width: 100%;
 }
 
 h2 {
@@ -35,6 +35,12 @@ height: auto;
 #logocliquable img{
 width: 2000px;
 height: 1500px;
+margin-top: 100px;
+}
+
+#titre{
+    text-align: center;
+    font-size: 100px;
 }
 /* page index*/
 
@@ -188,7 +194,7 @@ display: flex;
 
 .texte-vendredi {
   text-align: center; /* alignement du texte*/
-  background: url('images/test.jpg.png'); /* changement couleur d'arriere plan*/
+  background: #eee; /* changement couleur d'arriere plan*/
   font-size: 2rem; /* taille de la font*/
   line-height: 4rem; /* espacement entre les lignes du texte*/
   padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
@@ -203,14 +209,14 @@ display: flex;
 }
 
 .texte-samedi {
-  text-align: center; /* alignement du texte*/
-  background: cover; /* changement couleur d'arriere plan*/
+ text-align: center; /* alignement du texte*/
+  background: #eee; /* changement couleur d'arriere plan*/
   font-size: 2rem; /* taille de la font*/
   line-height: 4rem; /* espacement entre les lignes du texte*/
   padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
-    flex-basis: 33%;
+  flex-basis: 33%;
     transform: scale(1.03);
-  border: 1px solid #000000;
+
 }
 
 .img-samedi{
@@ -228,6 +234,7 @@ display: flex;
   padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
   flex-basis: 34%;
     transform: scale(1.02);
+    
 }
 
 
@@ -377,3 +384,5 @@ display: flex;
   transform: translateY(-50%); /* glissement sur l'axe Y*/
   transition: top .1s ease-in; /* type de transition */
 }
+
+

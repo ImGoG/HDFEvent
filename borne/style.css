@@ -1,16 +1,8 @@
 
 /* body des pages */
 body {
-background: linear-gradient(
-  rgba(0, 0, 0, 0.45),
-  rgba(0, 0, 0, 0.45)
-  ), url('');
-  background: url('images/Fond-borne.jpg');
-  background-repeat: no-repeat; 
-z-index: 7;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
+background: url('images/Fond-borne.jpg.png');
+    
 }
 
 h2 {
@@ -33,21 +25,21 @@ height: auto;
 }
 
 #logocliquable img{
-width: 2000px;
-height: 1500px;
+width: 560px;
+height: 350px;
 margin-top: 100px;
 }
 
 #titre{
     text-align: center;
-    font-size: 100px;
+    font-size: 25px;
 }
 /* page index*/
 
 boutons{
-width:200px;
+width:50px;
 list-style: none;
-line-height: 15rem;
+line-height: 3rem;
 }
 
 #boutons li{
@@ -56,7 +48,7 @@ color:#fff;
 border: 1px solid #161616;
 margin-bottom: 1px;
 list-style-type: none;
-margin-top: 400px;
+margin-top: 150px;
 
 }
 
@@ -68,10 +60,10 @@ font-family:'orkney';
 line-height: 0.5rem;
 text-align: center;
 text-decoration: none;
-padding:150px;
+padding:15px;
 position: relative;
 margin-top:1px;
-font-size: 14rem
+font-size: 3rem
 
 }
  #boutons li a:hover{
@@ -154,14 +146,14 @@ font-size: 14rem
 /* page liste html */
 #marecherche{
 
-margin-left: 600px;
-    height: 100px;
-    width: 600px;
+margin-left: 230px;
+    height: 50px;
+    width: 210px;
     
 }
 button{
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 175px;
     
 }
 #aligner{
@@ -177,7 +169,7 @@ display: flex;
 
 #titre-liste{
     color: #000;
-    font-size: 8rem;
+    font-size: 1rem;
     text-align: center;
     font-family: 'TW Cen MT';
     
@@ -186,6 +178,9 @@ display: flex;
 /* page actualite */
 .planning {
     display: flex;
+    margin-bottom: 0px;
+    height: 350px;
+    width: 1030px;
 }
 
 .img-planning{
@@ -194,61 +189,75 @@ display: flex;
 
 .texte-vendredi {
   text-align: center; /* alignement du texte*/
-  background: #eee; /* changement couleur d'arriere plan*/
-  font-size: 2rem; /* taille de la font*/
-  line-height: 4rem; /* espacement entre les lignes du texte*/
-  padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
+  background: #e9e3d5; /* changement couleur d'arriere plan*/
+  font-size: 1rem; /* taille de la font*/
+  line-height: 2rem; /* espacement entre les lignes du texte*/
+  padding: 2rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
   flex-basis: 33%;
     transform: scale(1.02);
+    
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 .img-vendredi{
     flex-basis: 33%;
-    height: 1712px;
+    height: 384px;
     transform: scale(1.02);
 }
+
+
 
 .texte-samedi {
  text-align: center; /* alignement du texte*/
-  background: #eee; /* changement couleur d'arriere plan*/
-  font-size: 2rem; /* taille de la font*/
-  line-height: 4rem; /* espacement entre les lignes du texte*/
-  padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
+  background: #e9e3d5; /* changement couleur d'arriere plan*/
+  font-size: 1rem; /* taille de la font*/
+  line-height: 2rem; /* espacement entre les lignes du texte*/
+  padding: 2rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
   flex-basis: 33%;
-    transform: scale(1.03);
-
+    transform: scale(1.02);
+    
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
+
 
 .img-samedi{
     flex-basis: 33%;
-    height: 1712px;
-    transform: scale(1.03);
+    height: 384px;
+    transform: scale(1.0);
     z-index: 9;
 }
 
-.texte-samedi a{
+a{
     z-index: 10;
     text-decoration: none;
     color: #fff;
-    font-size: 3rem;
-    background: #000;
+    font-size: 1rem;
+    background: #cc0000;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px
 }
 .texte-dimanche {
   text-align: center; /* alignement du texte*/
-  background: #eee; /* changement couleur d'arriere plan*/
-  font-size: 2rem; /* taille de la font*/
-  line-height: 4rem; /* espacement entre les lignes du texte*/
-  padding: 8rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
+  background: #e9e3d5; /* changement couleur d'arriere plan*/
+  font-size: 1rem; /* taille de la font*/
+  line-height: 2rem; /* espacement entre les lignes du texte*/
+  padding: 2rem 0; /* marge intérieure de 80 px pour le top et bot & 0 en right et left*/
   flex-basis: 34%;
     transform: scale(1.02);
+    
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
     
 }
 
 
 .img-dimanche{
     flex-basis: 33%;
-    height: 1718px;
-    width:1300px;
+    height: 384px;
+    width:341px;
     z-index: 8;
     transform: scale(1.02);
     margin-left: 20px;
@@ -256,17 +265,26 @@ display: flex;
 
 
 .texte-vendredi .date{
-    font-size: 4rem;
+    font-size: 1rem;
 }
 
 .texte-samedi .date{
-    font-size: 4rem;
+    font-size: 1rem;
 }
 
 .texte-dimanche .date{
-    font-size: 4rem;
+    font-size: 1rem;
 }
 
+#btns{
+    text-align: center;
+    margin: 20px 10px;
+}
+
+#btns a{
+     font-size: 25px;
+    
+}
 /* bouton retour */
 .Return {
 	background-color:#cc0000;
@@ -279,13 +297,13 @@ display: flex;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:75px;
+	font-size:25px;
 	font-weight:bold;
 	padding:13px 31px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #9e0101;
     font-family: 'Tw Cen MT';
-    margin-left: 1400px;
+    margin-left: 14px;
     margin-top: 50px;
     
 }

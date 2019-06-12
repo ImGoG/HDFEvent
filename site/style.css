@@ -84,7 +84,7 @@ body,html,header,h1{
     padding:0px;
     width: 100%;
     height: 100%;
-    background: url(images/Fond-site.jpg)no-repeat;
+    background: url('images/Fond-site.jpg')no-repeat;
     background-size:cover;
     color:white;
 }
@@ -111,7 +111,7 @@ header{
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    text-shadow:1px 1px 10px black;
+    color:#000;
     font-family: 'Wes FY 2';
 }
 
@@ -145,7 +145,7 @@ main p {
 /*Diapo*/
 /* gestion des dimensions et débordement du conteneur */
 #slideshow {
-    margin-left: 450px;
+    
     padding-bottom: 50px;
 }
 #slideshow .container {
@@ -234,9 +234,21 @@ main p {
 }
 
 
+#placevideo{
+    display: flex;
+   
+}
 
+.video1{
+    flex-basis: 50%;
+    margin-left: 175px;
+    
+}
 
-
+.video2{
+    flex-basis: 50%;
+    
+}
 
 
 
@@ -461,7 +473,67 @@ input[type=submit]:hover {
   transition: top .1s ease-in; /* type de transition */
 }
 /* Partie responsive */
+@media screen and (max-width: 1440px){
+    p {
+        font-size:0.8em;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .m-right{
+        font-size: 17px;
+    }
+    
+    .wrapper{
+    background: url(images/Fond-site.jpg);
+        background-size: auto;
+}
+}
 
+
+
+@media screen and (max-width: 1385px){
+    p {
+        font-size:0.8em;
+    }
+    .logo{
+        font-size: 35px;
+    }
+    .m-right{
+        font-size: 15px;
+    }
+    
+       .wrapper{
+    background: url(images/Fond-site.jpg)fixed;
+
+}
+}
+
+
+@media screen and (max-width: 1250px){
+    p {
+        font-size:0.8em;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .m-right{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 1060px){
+    p {
+        font-size:0.8em;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    .m-right{
+        font-size: 12px;
+    }
+}
 /* page footer */
 .container-footer {
    height: auto; 
@@ -518,3 +590,13 @@ footer p{
     float: right;
     margin-right: 20px;
 }
+
+/* page reservation */
+
+h2{
+    color:#000;
+    text-align: center;
+    
+}
+
+.

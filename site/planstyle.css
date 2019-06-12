@@ -54,11 +54,6 @@ font-size: 40px;
 
 
 
-
-
-
-
-
 /*Grande Image sur le menu d'accueil*/
 
 body,html,header{
@@ -115,6 +110,7 @@ header{
     text-align : center;
     font-family: 'Tw Cen MT';
     color: #000;
+    background: #fff;
     
 }
 
@@ -139,6 +135,7 @@ td, th /* Mettre une bordure sur les td ET les th */
     background: #e9e3d5;
     font-family: 'Tw Cen MT';
     color: #000;
+    margin-top: 50px;
 }
 
 
@@ -246,4 +243,67 @@ footer p{
     color: #fff;
     text-align: center;
 }
-        
+
+/* page responsive */
+
+@media screen and (max-width: 1440px){
+    p {
+        font-size:0.8em;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .m-right{
+        font-size: 17px;
+    }
+    
+    .wrapper{
+    background: url(images/Fond-site.jpg);
+        background-size: auto;
+}
+}
+
+
+
+@media screen and (max-width: 1385px){
+    p {
+        font-size:0.8em;
+    }
+    .logo{
+        font-size: 35px;
+    }
+    .m-right{
+        font-size: 15px;
+    }
+    
+       .wrapper{
+    background: url(images/Fond-site.jpg)fixed;
+
+}
+}
+
+
+@media screen and (max-width: 1250px){
+    p {
+        font-size:0.8em;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .m-right{
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 1060px){
+    p {
+        font-size:0.8em;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    .m-right{
+        font-size: 12px;
+    }
+}

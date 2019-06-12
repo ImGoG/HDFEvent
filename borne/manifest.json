@@ -1,0 +1,9 @@
+{
+    "name" : "Lille Mini Metrage",
+    "short-name" : "LMM",
+    "theme_color" : "#e9e3d5",
+    "display" : "fullscreen",
+    "orientation" : "landscape",
+    "Scope" : "/",
+    "start_url": "/borne/accueil.html"
+}
